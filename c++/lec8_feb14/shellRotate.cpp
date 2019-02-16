@@ -13,6 +13,7 @@ int main(int argc, char** argv){
 		{41,42,43,44,45},
 		{51,52,53,54,55}
 	};
+	
 	int rows = sizeof(arr) / sizeof(arr[0]);
 	int cols = sizeof(arr[0]) / sizeof(arr[0][0]);
 
@@ -54,14 +55,14 @@ int main(int argc, char** argv){
 		}
 	}
 
+	r = r % nElems;
 	rotate(res, nElems, r);
 
-	for(int i = 0; i < nElems; i++){
-		cout << res[i] << " ";
-	}
+	// for(int i = 0; i < nElems; i++){
+	// 	cout << res[i] << " ";
+	// }
 
 	counter = 0;
-	cout << endl;
 	cout << endl;
 
 	while(counter < nElems){
