@@ -11,7 +11,5 @@ int main(int argc, char** argv){
 	};
 
 	int dim = sizeof(arr) / sizeof(arr[0]);
-
-
 	cout << endl;
 }

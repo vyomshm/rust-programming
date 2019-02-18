@@ -25,7 +25,7 @@ int main(int argc, char** argv){
 
 	for(int i = 0; i < rows / 2; i++){
 		int temp[rows];
-		// swap rows
+		// swap columns
 	}
 
 	for(int i = 0; i < rows; i++){
